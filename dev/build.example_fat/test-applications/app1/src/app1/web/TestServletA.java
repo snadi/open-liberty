@@ -42,6 +42,7 @@ public class TestServletA extends FATServlet {
         System.out.println("You can also use thee (HttpServletRequest, HttpServletResponse) signature " +
                            " on a test method if you need to access the underlying HTTP request/response");
         System.out.println("Got HTTP params: " + request.getParameterMap());
+        System.out.println("Sarah test");
         resp.getWriter().println("Running test method 'testHttpServletRequest'");
     }
 
